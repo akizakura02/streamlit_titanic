@@ -78,8 +78,8 @@ test_pred = np.zeros((len(test), 5))
 button = st.button('Predict')
 
 if button:
-    train = pd.read_csv('../input/titanic/train.csv')
-    sample_submission = pd.read_csv('../input/titanic/gender_submission.csv')
+    train = pd.read_csv('train.csv')
+    sample_submission = pd.read_csv('gender_submission.csv')
     # SexとEmbarkedのOne-Hotエンコーディング
     train = pd.get_dummies(train, columns=['Sex'])
     # 不要な列の削除
