@@ -2,6 +2,6 @@ streamlit
 numpy
 pandas
 Image
-lightgdm
+lightgbm
 accuracy_score
 StratifiedKFold
