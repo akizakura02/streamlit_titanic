@@ -8,7 +8,7 @@ import lightgbm as lgb
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import StratifiedKFold
 
-st.title('タイタニック号 生存予測')
+st.title('タイタニック号 生存予測アプリ')
 img = Image.open('titanic_ticket.jpg')
 st.image(img, use_column_width=True)
 
