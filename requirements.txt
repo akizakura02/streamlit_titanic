@@ -3,4 +3,5 @@ numpy
 pandas
 Image
 lightgdm
-sklearn
+accuracy_score
+StratifiedKFold
