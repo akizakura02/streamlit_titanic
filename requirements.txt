@@ -1,0 +1,6 @@
+streamlit
+numpy
+pandas
+Image
+lightgdm
+sklearn
